@@ -102,15 +102,50 @@ params:
 
 menu:
   main:
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 30
+    - identifier: home
+      name: Home
+      url: "/"
+      weight: 1
+
+    - identifier: about
+      name: About
+      url: "/about/"
+      weight: 2
+
+    - identifier: archive
+      name: Archive
+      url: "/archive/"
+      weight: 3
+
+    - identifier: posts
+      name: Blog
+      url: "/blog/"
+      weight: 4
+
+    - identifier: musings
+      name: Essays
+      url: "/musings/"
+      weight: 5
+
+    - identifier: vim_stuff
+      name: Vim Stuff
+      url: "/vim_stuff/"
+      weight: 6
+
+    - identifier: shelf
+      name: Shelf
+      url: "/shelf/"
+      weight: 7
+
     - identifier: search
       name: Search
-      url: /search/
-      weight: 40
+      url: "/search/"
+      weight: 8
+
+# Markup and Syntax Highlighting Settings
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
