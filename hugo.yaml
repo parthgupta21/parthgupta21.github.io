@@ -127,20 +127,15 @@ menu:
       url: "/musings/"
       weight: 5
 
-    - identifier: vim_stuff
-      name: Vim Stuff
-      url: "/vim_stuff/"
-      weight: 6
-
     - identifier: shelf
       name: Shelf
       url: "/shelf/"
-      weight: 7
+      weight: 6
 
     - identifier: search
       name: Search
       url: "/search/"
-      weight: 8
+      weight: 7
 
 # Markup and Syntax Highlighting Settings
 markup:
