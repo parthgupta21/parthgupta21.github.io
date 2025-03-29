@@ -71,8 +71,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+     Title: "[ ~]$ whoami"
+     Content: |
+      **Hey! I’m Parth Gupta**  
+      Welcome to my corner of the internet. This website is a personal blog which I use as a platform to document my learning journey and showcase it for the world to see. **Hop in!**
 
   socialIcons:
     - name: X
